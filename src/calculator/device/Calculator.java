@@ -6,7 +6,7 @@
 
 package calculator.device;
 
-public class Calculator implements BasicMath{
+public abstract class Calculator implements BasicMath{
 
 	/**
 	 * current value that the calculator works with
@@ -69,4 +69,4 @@ public class Calculator implements BasicMath{
 
 	}
 
-}
+}//class

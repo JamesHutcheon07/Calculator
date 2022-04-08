@@ -32,11 +32,9 @@ public class StandardCalculate extends Calculator {
 	 * adds the current value to the memory
 	 */
 	public void memoryAdd() {
-		System.out.println("Testing ");
 		System.out.print(memoryValue + " + " + currentValue + " = ");
 		this.memoryValue += currentValue;
 		System.out.println(memoryValue);
-		System.out.println(' ');
 
 	}
 
@@ -47,20 +45,17 @@ public class StandardCalculate extends Calculator {
 		System.out.print(memoryValue + " - " + currentValue + " = ");
 		this.memoryValue -= currentValue;
 		System.out.println(memoryValue);
-		System.out.println(' ');
 		
 	}
 
 	/**
 	 * recalls the value stored in memory
 	 */
-	public void memoryRecall() {
-		this.memoryValue = currentValue;
-		System.out.println(memoryValue);
-		System.out.println(' ');
-
-
+	public double memoryRecall() {
+		System.out.println("MR: " + memoryValue);
+		return this.memoryValue;
+		
 	}
 
 
-}
+}//class
