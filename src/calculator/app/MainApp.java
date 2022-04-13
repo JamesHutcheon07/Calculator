@@ -10,7 +10,9 @@ import calculator.device.*;
 
 public class MainApp {
 	
-	
+	/*
+	 * This tests every math calculator operator in order to check the each function and operations work properly 
+	 * */
 	public static void main(String[] args) {
 		AdvanceCalculate myCalculator = new AdvanceCalculate();
 		
